@@ -1,77 +1,69 @@
-/**
- * Tailwind CSS imports
- * View the full documentation at https://tailwindcss.com
- */
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-@tailwind base;
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
 
-html {
-  font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
-  scroll-padding-top: 12rem;
+@theme {
+  --color-light-title: "#1E293B";
+  --color-light-paragraph: "#475569";
+  --color-dark-title: "#F1F5F9";
+  --color-dark-paragraph: "#CBD5E1";
+  --color-light-fill: "#E9E9E9";
+  --color-light-foregroundFill: "#F1F5F9";
+  --color-light-navbarFill: "#F8FAFC";
+  --color-light-footerFill: "#F8FAFC";
+  --color-dark-fill: "#0F172A";
+  --color-dark-foregroundFill: "#1E293B";
+  --color-dark-navbarFill: "#334155";
+  --color-dark-footerFill: "#334155";
+  --color-accent-light: #ff3366;
+  --color-accent-base: "#570F22";
+  --color-accent-dark: "#410B19";
+  --color-accent-darkest: "#2B0811";
+  --color-primary-light: "#D1AA94";
+  --color-primary-base: "#8D5A3D";
+  --color-primary-dark: "#6B442E";
+  --color-primary-darkest: "#472D1F";
+  --font-display: "Marcellus", serif;
+  --font-body: "Inter", sans-serif;
 }
 
-body {
-  margin-bottom: 6.25rem;
+h1 {
+  @apply text-3xl md:text-5xl;
 }
-
-@media only screen and (min-width: 1024px) {
-  body {
-    margin-bottom: 0;
-  }
+h2 {
+  @apply text-2xl md:text-4xl;
 }
-
-@layer base {
-  /* Font Styling */
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: "Marcellus", sans-serif;
-    @apply font-bold text-light-title;
-  }
-
-  h1 {
-    @apply text-3xl md:text-5xl;
-  }
-
-  h2 {
-    @apply text-2xl md:text-4xl;
-  }
-
-  h3 {
-    @apply text-xl md:text-2xl;
-  }
-
-  p,
-  label,
-  input,
-  select,
-  a,
-  button,
-  li {
-    @apply text-base lg:text-xl;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  p,
-  label,
-  input,
-  select,
-  li {
-    @apply text-light-paragraph;
-  }
-
-  button {
-    @apply font-bold;
-  }
-
-  a {
-    @apply text-dark-paragraph transition;
-  }
+h3 {
+  @apply text-xl md:text-2xl;
 }
-
-@tailwind components;
-@tailwind utilities;
+h1,
+h2,
+h3,
+h4 {
+  @apply font-display text-light-title font-bold;
+}
+p,
+label,
+input,
+select,
+a,
+button,
+li {
+  @apply font-body text-base lg:text-xl;
+}
+p,
+label,
+input,
+select,
+li {
+  @apply text-accent-light;
+}
+button {
+  @apply font-bold;
+}
+a {
+  @apply text-dark-paragraph transition;
+}
