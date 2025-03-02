@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { CardOne } from "../cards/cardOne";
 
-interface CardProps {
+interface CardDrilledProps {
   cardImageSrc: string;
   cardImageAlt: string;
   cardStatement: string;
@@ -10,11 +10,11 @@ interface CardProps {
   layout?: "normal" | "reverse";
 }
 
-interface SectionProps {
-  cards: CardProps[];
+export interface FirstSectionProps {
+  cards: CardDrilledProps[];
 }
 
-export const FirstSection = component$<SectionProps>(({ cards }) => {
+export const FirstSection = component$<FirstSectionProps>(({ cards }) => {
   return (
     <>
       <section class="m-auto flex flex-col gap-16 px-6 py-20 lg:max-w-screen-lg">

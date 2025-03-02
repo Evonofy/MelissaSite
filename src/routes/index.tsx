@@ -3,7 +3,9 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import { Hero } from "../components/hero/hero";
 import { FirstSection } from "../components/sections/firstSection";
-import { heroData, firstSectionData } from "../data/siteData";
+import { SecondSection } from "../components/sections/secondSection";
+import { ThirdSection } from "../components/sections/thirdSection";
+import { heroData, firstSectionData, secondSectionData, thirdSectionData } from "../data/siteData";
 
 export default component$(() => {
   return (
@@ -11,6 +13,8 @@ export default component$(() => {
       <p>Happy coding.</p>
       <Hero {...heroData} />
       <FirstSection {...firstSectionData}/>
+      <SecondSection {...secondSectionData}/>
+      <ThirdSection {...thirdSectionData}/>
     </>
   );
 });

@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-interface CardProps {
+interface CardOneProps {
   imageSrc: string;
   imageAlt: string;
   statement: string;
@@ -9,7 +9,7 @@ interface CardProps {
   layout?: "normal" | "reverse";
 }
 
-export const CardOne = component$<CardProps>(
+export const CardOne = component$<CardOneProps>(
   ({
     imageSrc,
     imageAlt,

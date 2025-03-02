@@ -1,3 +1,5 @@
+import { FirstSectionProps } from "../components/sections/firstSection";
+
 export const heroData = {
   bgImage: "/Hero/Hero.webp",
   logoSrc: "/Logo.svg",
@@ -12,7 +14,7 @@ export const heroData = {
   buttonLink: "",
 };
 
-export const firstSectionData = {
+export const firstSectionData: FirstSectionProps = {
   cards: [
     {
       cardImageSrc: "/FirstSection/Heart.png",
@@ -32,5 +34,42 @@ export const firstSectionData = {
         "Sua vida amorosa será profundamente impactada. Ao curar suas feridas emocionais, você poderá construir relações baseadas na confiança, equilíbrio e autenticidade, sem carregar traumas do passado.",
       layout: "reverse",
     },
+  ],
+};
+
+export const secondSectionData = {
+  cards: [
+    {
+      cardImageSrc: "/SecondSection/Brain.svg",
+      cardImageAlt: "Um ícone representando um cérebro.",
+      cardTitle: "Autoconhecimento",
+      cardDescription:
+        "Identifique padrões emocionais que sabotam suas relações.",
+    },
+    {
+      cardImageSrc: "/SecondSection/Heartbeat.svg",
+      cardImageAlt: "Um ícone representando um coração pulsando.",
+      cardTitle: "Cura Emocional",
+      cardDescription:
+        "Liberte-se de traumas e crenças limitantes sobre o amor.",
+    },
+    {
+      cardImageSrc: "/SecondSection/Users.svg",
+      cardImageAlt: "Um ícone representando três pessoas juntas.",
+      cardTitle: "Relacionamentos Saudáveis",
+      cardDescription: "Construa conexões autênticas e equilibradas.",
+    },
+  ],
+};
+
+export const thirdSectionData = {
+  imageSrc: "/ThirdSection/Melissa.png",
+  imageAlt: "Uma imagem da autora.",
+  statement: "Conheça A Autora",
+  title: "Melissa Zieguer",
+  description: [
+    "Atuante como Psicoterapeuta Holística com especialização em neuropsicanálise, psicologia corporal, bioenergética, sexologia humana e terapia sexual, estratégias bio-ortomoleculares e intolerãncia & alergia alimentar, e homeopatia contemporânea.",
+    "Estudiosa cientista de psicobiofísica, neurociências; neuroanatomia; neurobiologia; neurobiofísica. Também os campos informacionais coletivos e pessoais - egrégoras, captação psíquica e radiestesia, frequencias binaurais e Fibonacci, alquimia, bem como vários outros saberes para acrescentar.",
+    "Experiência clínica de 25 anos. Escritora de livros e criadora de áudios com frequências subliminares de “cura”: ME-EDITAÇÃO, para tratar pessoas, e não sintomas ou doenças.",
   ],
 };
