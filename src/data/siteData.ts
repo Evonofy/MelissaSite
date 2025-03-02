@@ -1,4 +1,4 @@
-import { FirstSectionProps } from "../components/sections/firstSection";
+import type { FirstSectionProps } from "../components/sections/firstSection";
 
 export const heroData = {
   bgImage: "/Hero/Hero.webp",
@@ -71,5 +71,46 @@ export const thirdSectionData = {
     "Atuante como Psicoterapeuta Holística com especialização em neuropsicanálise, psicologia corporal, bioenergética, sexologia humana e terapia sexual, estratégias bio-ortomoleculares e intolerãncia & alergia alimentar, e homeopatia contemporânea.",
     "Estudiosa cientista de psicobiofísica, neurociências; neuroanatomia; neurobiologia; neurobiofísica. Também os campos informacionais coletivos e pessoais - egrégoras, captação psíquica e radiestesia, frequencias binaurais e Fibonacci, alquimia, bem como vários outros saberes para acrescentar.",
     "Experiência clínica de 25 anos. Escritora de livros e criadora de áudios com frequências subliminares de “cura”: ME-EDITAÇÃO, para tratar pessoas, e não sintomas ou doenças.",
+  ],
+};
+
+export const fourthSectionData = {
+  sections: [
+    {
+      imageSrc: "/FourthSection/BookOne.png",
+      imageAlt: "Volume primeiro.",
+      cards: [
+        {
+          cardTitle: "O Amor Está Doente",
+          cardValue: "$100",
+          cardButtonText: "Compre Agora",
+          cardButtonLink: "#",
+        },
+      ],
+    },
+    {
+      imageSrc: "/FourthSection/BookTwo.png",
+      imageAlt: "Volume segundo",
+      cards: [
+        {
+          cardTitle: "A Dor Do Amor",
+          cardValue: "$300",
+          cardButtonText: "Compre Agora",
+          cardButtonLink: "#",
+        },
+      ],
+    },
+    {
+      imageSrc: "/FourthSection/BookThree.png",
+      imageAlt: "Image for section 2",
+      cards: [
+        {
+          cardTitle: "Cure-se Dos Reflexos Da Dor Do Amor No Corpo E Na Alma",
+          cardValue: "$300",
+          cardButtonText: "Compre Agora",
+          cardButtonLink: "#",
+        },
+      ],
+    },
   ],
 };
