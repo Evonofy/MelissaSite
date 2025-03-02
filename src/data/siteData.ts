@@ -1,7 +1,7 @@
 import type { FirstSectionProps } from "../components/sections/firstSection";
 
-export const heroData = {
-  bgImage: "/Hero/Hero.webp",
+export const firstHeroData = {
+  bgImage: "/FirstHero/Hero.webp",
   logoSrc: "/Logo.svg",
   logoAlt: "Um fundo em vermelho vinho com um sol no centro",
   title: "O Amor Está Doente",
@@ -113,4 +113,47 @@ export const fourthSectionData = {
       ],
     },
   ],
+};
+
+export const secondHeroData = {
+  statement: "Transforme-se",
+  title: "Entenda Definitivamente O Amor",
+  comboSrc: "/SecondHero/Combo.png",
+  comboAlt: "Os três livros da coleção",
+  bonusSrc: "/SecondHero/Bonus.png",
+  bonusAlt: "Um livro bônus",
+  descriptions: [
+    {
+      description:
+        "A cura começa de dentro para fora. Ao identificar as influências familiares e sociais que moldaram sua forma de amar, você poderá ressignificar sua história e criar uma nova realidade emocional.",
+      summaries: [
+        {
+          summary:
+            "✅ Descubra por que o amor se tornou tão frágil e adoecido.",
+        },
+      ],
+    },
+    {
+      description:
+        "Nosso método combina técnicas de autoconhecimento, visualização e ressignificação para ajudá-lo(a) a se libertar de ciclos destrutivos e encontrar o amor verdadeiro, começando por si mesmo(a).",
+      summaries: [
+        {
+          summary:
+            "✅ Identifique padrões disfuncionais que afetam seus relacionamentos.",
+        },
+      ],
+    },
+    {
+      description:
+        "O amor não precisa ser sofrimento. Ele pode ser leve, profundo e curador. A transformação é possível quando compreendemos nossas emoções e quebramos padrões inconscientes que nos prendem a relacionamentos tóxicos.",
+      summaries: [
+        {
+          summary:
+            "✅ Aprenda técnicas de cura para viver o amor de forma plena.",
+        },
+      ],
+    },
+  ],
+  buttonText: "Adquira A Coleção",
+  buttonLink: "",
 };

@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Button } from "../button/button";
 
-interface HeroProps {
+interface FirstHeroProps {
   bgImage: string;
   logoSrc: string;
   logoAlt: string;
@@ -14,7 +14,7 @@ interface HeroProps {
   buttonWebhookUrl?: string;
 }
 
-export const Hero = component$<HeroProps>(
+export const FirstHero = component$<FirstHeroProps>(
   ({
     bgImage,
     logoSrc,
