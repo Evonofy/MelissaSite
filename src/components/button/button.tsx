@@ -37,7 +37,7 @@ export const Button = component$<ButtonProps>(({ text, link, webhookUrl }) => {
 
   return (
     <button
-      class="flex w-max items-center bg-accent-dark px-6 py-3 font-bold text-black transition duration-300 hover:bg-accent-dark disabled:opacity-50"
+      class="hover:bg-accent-dark text-dark-title flex w-max items-center rounded-lg bg-linear-to-r from-[#8D5A3D] to-[#D1AA94] px-6 py-3 font-bold transition duration-300 disabled:opacity-50"
       onClick$={handleClick}
       disabled={isSubmitting.value}
     >
