@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-light-title: #1e293b;
+  --color-light-paragraph: #475569;
+  --color-dark-title: #f1f5f9;
+  --color-dark-paragraph: #cbd5e1;
+  --color-light-fill: #e9e9e9;
+  --color-light-foregroundFill: #f1f5f9;
+  --color-light-navbarFill: #f8fafc;
+  --color-light-footerFill: #f8fafc;
+  --color-dark-fill: #0f172a;
+  --color-dark-foregroundFill: #1e293b;
+  --color-dark-navbarFill: #334155;
+  --color-dark-footerFill: #334155;
+  --color-accent-light: #ff3366;
+  --color-accent-base: #570f22;
+  --color-accent-dark: #410b19;
+  --color-accent-darkest: #2b0811;
+  --color-primary-light: #d1aa94;
+  --color-primary-base: #8d5a3d;
+  --color-primary-dark: #6b442e;
+  --color-primary-darkest: #472d1f;
+
+  --font-display: "Marcellus", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 12rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    body {
+      margin-bottom: 0;
+    }
+  }
+}
+
+h1 {
+  @apply text-3xl md:text-5xl;
+}
+
+h2 {
+  @apply text-2xl md:text-4xl;
+}
+
+h3 {
+  @apply text-xl md:text-2xl;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-display text-light-title;
+}
+
+p,
+label,
+input,
+select,
+a,
+button,
+li {
+  @apply font-body text-base lg:text-xl;
+}
+
+p,
+label,
+input,
+select,
+li {
+  @apply text-light-paragraph;
+}
+
+button {
+  @apply font-bold;
+}
+a {
+  @apply text-dark-title;
+}
