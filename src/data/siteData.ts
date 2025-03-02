@@ -12,4 +12,25 @@ export const heroData = {
   buttonLink: "",
 };
 
-export default heroData;
+export const firstSectionData = {
+  cards: [
+    {
+      cardImageSrc: "/FirstSection/Heart.png",
+      cardImageAlt: "Um coração como uma fruta em frente a folhas.",
+      cardStatement: "Abandone a dor",
+      cardTitle: "A proteção do amor",
+      cardDescription:
+        "Você aprenderá a reconhecer padrões nocivos e a desenvolver conexões emocionais genuínas, livres de dependência e dor.",
+      layout: "normal",
+    },
+    {
+      cardImageSrc: "/FirstSection/Couple.png",
+      cardImageAlt: "Um casal junto.",
+      cardStatement: "Viva o hoje e o depois sem olhar para trás",
+      cardTitle: "Cure-se do seu passado",
+      cardDescription:
+        "Sua vida amorosa será profundamente impactada. Ao curar suas feridas emocionais, você poderá construir relações baseadas na confiança, equilíbrio e autenticidade, sem carregar traumas do passado.",
+      layout: "reverse",
+    },
+  ],
+};
