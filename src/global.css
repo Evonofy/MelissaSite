@@ -4,8 +4,6 @@
 @import "tailwindcss";
 
 @theme {
-  --spacing: 1px;
-
   --color-light-title: #1e293b;
   --color-light-paragraph: #475569;
   --color-dark-title: #f1f5f9;

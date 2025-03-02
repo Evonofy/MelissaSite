@@ -8,7 +8,7 @@ export default component$(() => {
     <>
       <p>Happy coding.</p>
       <Hero
-        bgImage="/Hero/Hero.png"
+        bgImage="/Hero/Hero.webp"
         logoSrc="/Logo.svg"
         logoAlt="Um fundo em vermelho vinho com um sol no centro"
         title="O Amor Está Doente"
