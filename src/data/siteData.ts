@@ -11,13 +11,13 @@ export const firstHeroData = {
     "O amor, que deveria nutrir, tem se tornado um campo de frustrações e dores. Neste e-book, você descobrirá as raízes desse adoecimento emocional e aprenderá técnicas de cura para transformar suas relações e viver o amor em sua plenitude.",
   videoSrc: "https://www.youtube.com/embed/uk4wPrid9io?si=LKWNlEtAL1yZnQ7l",
   buttonText: "Baixe e transforme sua forma de amar!",
-  buttonLink: "",
+  buttonLink: "https://chk.eduzz.com/Z0B5DYA6WA",
 };
 
 export const firstSectionData: FirstSectionProps = {
   cards: [
     {
-      cardImageSrc: "/FirstSection/Heart.png",
+      cardImageSrc: "/FirstSection/Heart.webp",
       cardImageAlt: "Um coração como uma fruta em frente a folhas.",
       cardStatement: "Abandone a dor",
       cardTitle: "A proteção do amor",
@@ -26,7 +26,7 @@ export const firstSectionData: FirstSectionProps = {
       layout: "normal",
     },
     {
-      cardImageSrc: "/FirstSection/Couple.png",
+      cardImageSrc: "/FirstSection/Couple.webp",
       cardImageAlt: "Um casal junto.",
       cardStatement: "Viva o hoje e o depois sem olhar para trás",
       cardTitle: "Cure-se do seu passado",
@@ -63,7 +63,7 @@ export const secondSectionData = {
 };
 
 export const thirdSectionData = {
-  imageSrc: "/ThirdSection/Melissa.png",
+  imageSrc: "/ThirdSection/Melissa.webp",
   imageAlt: "Uma imagem da autora.",
   statement: "Conheça A Autora",
   title: "Melissa Zieguer",
@@ -77,38 +77,38 @@ export const thirdSectionData = {
 export const fourthSectionData = {
   sections: [
     {
-      imageSrc: "/FourthSection/BookOne.png",
+      imageSrc: "/FourthSection/BookOne.webp",
       imageAlt: "Volume primeiro.",
       cards: [
         {
           cardTitle: "O Amor Está Doente",
-          cardValue: "$100",
+          cardValue: "R$ 27",
           cardButtonText: "Compre Agora",
-          cardButtonLink: "#",
+          cardButtonLink: "https://chk.eduzz.com/801EYX5RW7",
         },
       ],
     },
     {
-      imageSrc: "/FourthSection/BookTwo.png",
+      imageSrc: "/FourthSection/BookTwo.webp",
       imageAlt: "Volume segundo",
       cards: [
         {
           cardTitle: "A Dor Do Amor",
-          cardValue: "$300",
+          cardValue: "R$ 27",
           cardButtonText: "Compre Agora",
-          cardButtonLink: "#",
+          cardButtonLink: "https://chk.eduzz.com/39VE43G7WR",
         },
       ],
     },
     {
-      imageSrc: "/FourthSection/BookThree.png",
+      imageSrc: "/FourthSection/BookThree.webp",
       imageAlt: "Image for section 2",
       cards: [
         {
           cardTitle: "Cure-se Dos Reflexos Da Dor Do Amor No Corpo E Na Alma",
-          cardValue: "$300",
+          cardValue: "R$ 27",
           cardButtonText: "Compre Agora",
-          cardButtonLink: "#",
+          cardButtonLink: "https://chk.eduzz.com/KW8K2RP201",
         },
       ],
     },
@@ -118,9 +118,9 @@ export const fourthSectionData = {
 export const secondHeroData = {
   statement: "Transforme-se",
   title: "Entenda Definitivamente O Amor",
-  comboSrc: "/SecondHero/Combo.png",
+  comboSrc: "/SecondHero/Combo.webp",
   comboAlt: "Os três livros da coleção",
-  bonusSrc: "/SecondHero/Bonus.png",
+  bonusSrc: "/SecondHero/Bonus.webp",
   bonusAlt: "Um livro bônus",
   descriptions: [
     {
@@ -155,5 +155,5 @@ export const secondHeroData = {
     },
   ],
   buttonText: "Adquira A Coleção",
-  buttonLink: "",
+  buttonLink: "https://sun.eduzz.com/Z0B5DYA6WA",
 };
