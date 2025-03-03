@@ -63,7 +63,7 @@ export const head: DocumentHead = {
     },
     {
       property: "og:image",
-      content: "https://metatags.io/images/meta-tags.png",
+      content: "https://melissazieguer-oamordoente.netlify.app/Preview.png",
     },
     // Twitter
     {
@@ -85,7 +85,7 @@ export const head: DocumentHead = {
     },
     {
       property: "twitter:image",
-      content: "https://metatags.io/images/meta-tags.png",
+      content: "https://melissazieguer-oamordoente.netlify.app/Preview.png",
     },
   ],
 };
