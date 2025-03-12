@@ -8,8 +8,8 @@
 
 <div align="center">
 
-| [Notion](https://atomic-warehouse.notion.site/Trilogia-O-Amor-Est-Doente-17feae73d15f80d5965ef87900a5c63c?pvs=4) |
-| ---------------------------------------------------------------------------------------------------------------- |
+| [Notion](https://evonofy.notion.site/Trilogia-O-Amor-Est-Doente-1b4fa6ba1d0680a9b1f6d0f3a282a530?pvs=4) |
+| ------------------------------------------------------------------------------------------------------- |
 
 </div>
 
